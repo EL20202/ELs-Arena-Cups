@@ -1,0 +1,13 @@
+{
+    "id": "els-arena-cups",
+	"version": "0.1.0",
+
+	"title": "EL's Arena Fun Time",
+	"description": "Adds a bunch of \\c[1]\"fun\"\\c[0] arena challenges.",
+
+    "prestart": "mod.js",
+    
+	"dependencies": {
+        "item-api": "^0.4.0"
+	}
+}

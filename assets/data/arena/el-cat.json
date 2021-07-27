@@ -1,0 +1,1236 @@
+{
+    "core": {
+        "type": "SOLO_CUSTOM",
+        "name": {
+            "en_US": "Cat Lover's Delight",
+            "langUid": 1
+        },
+        "info": {
+            "en_US": "it's kitties",
+            "langUid": 2
+        },
+        "creator": {
+            "en_US": "EL2020",
+            "langUid": 3
+        },
+        "music": "challenge",
+        "rushMusic": "bossRush",
+        "mods": [
+            "WEAPON_ADJUST",
+            "NO_HP_REGEN",
+            "NO_ITEMS"
+        ],
+        "noRush": true,
+        "difficulty": "6",
+        "level": 60,
+        "banner": {
+            "src": "media\/gui\/el-cat-banner.png",
+            "offX": 0,
+            "offY": 0,
+            "width": 280,
+            "height": 64
+        }
+    },
+    "rounds": [
+        {
+            "name": {
+                "en_US": "Exponential Cats"
+            },
+            "customCode": false,
+            "camFocus": "CAM_FOCUS",
+            "roundFocus": "CAM_FOCUS",
+            "coins": 0,
+            "objective": {
+                "en_US": "meow"
+            },
+            "platPoints": 700000,
+            "points": 450000,
+            "type": "DEFAULT",
+            "medal": 0,
+            "waves": [
+                {
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH_EAST",
+                            "count": 2,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH_WEST",
+                            "count": 2,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat"
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                }
+            ],
+            "map": "arena.areas.jungle-setting-01",
+            "bonuses": [
+                {
+                    "type": "HIT_COUNTER",
+                    "value": 50,
+                    "points": 50000
+                },
+                {
+                    "type": "CHAIN",
+                    "target": 30,
+                    "points": 100000
+                },
+                {
+                    "type": "EFFECTIVE_DAMAGE",
+                    "target": 40000,
+                    "points": 50000
+                }
+            ],
+            "spawn": "PLAYER_SPAWN"
+        },
+        {
+            "name": {
+                "en_US": "Exponential Cats (No Balls)"
+            },
+            "customCode": false,
+            "camFocus": "CAM_FOCUS",
+            "roundFocus": "CAM_FOCUS",
+            "coins": 0,
+            "objective": {
+                "en_US": "meow"
+            },
+            "mods": [
+                "NO_RANGED"
+            ],
+            "platPoints": 700000,
+            "points": 400000,
+            "type": "DEFAULT",
+            "medal": 0,
+            "waves": [
+                {
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH_EAST",
+                            "count": 2,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH_WEST",
+                            "count": 2,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat"
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                }
+            ],
+            "map": "arena.areas.jungle-setting-01",
+            "bonuses": [
+                {
+                    "type": "HIT_COUNTER",
+                    "value": 75,
+                    "points": 50000
+                },
+                {
+                    "type": "CHAIN",
+                    "target": 30,
+                    "points": 100000
+                },
+                {
+                    "type": "EFFECTIVE_DAMAGE",
+                    "target": 40000,
+                    "points": 50000
+                }
+            ],
+            "spawn": "PLAYER_SPAWN"
+        },
+        {
+            "name": {
+                "en_US": "Exponential Cats (Melee Only)"
+            },
+            "customCode": false,
+            "camFocus": "CAM_FOCUS",
+            "roundFocus": "CAM_FOCUS",
+            "coins": 0,
+            "objective": {
+                "en_US": "meow"
+            },
+            "mods": [
+                "NO_RANGED",
+                "NO_DASH",
+                "NO_GUARD"
+            ],
+            "platPoints": 700000,
+            "points": 450000,
+            "type": "DEFAULT",
+            "medal": 0,
+            "waves": [
+                {
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH_EAST",
+                            "count": 2,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH_WEST",
+                            "count": 2,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat"
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat"
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "camFocus": "CAM_FOCUS",
+                    "enemies": [
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn1",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn2",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn3",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "group": "",
+                            "party": "",
+                            "face": "SOUTH",
+                            "count": 1,
+                            "enemy": "hedgehog",
+                            "marker": "Spawn4",
+                            "type": "jungle.shockcat",
+                            "attribs": {
+                                "hidden": false
+                            }
+                        }
+                    ]
+                }
+            ],
+            "map": "arena.areas.jungle-setting-01",
+            "bonuses": [
+                {
+                    "type": "HIT_COUNTER",
+                    "value": 100,
+                    "points": 50000
+                },
+                {
+                    "type": "CHAIN",
+                    "target": 10,
+                    "points": 100000
+                },
+                {
+                    "type": "EFFECTIVE_DAMAGE",
+                    "target": 40000,
+                    "points": 50000
+                }
+            ],
+            "spawn": "PLAYER_SPAWN"
+        }
+        
+    ]
+}

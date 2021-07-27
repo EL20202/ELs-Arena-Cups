@@ -1,0 +1,6 @@
+{
+	"name": "els-arena-cups",
+	"version": "0.1.0",
+	"description": "Adds a bunch of \\c[1]\"fun\"\\c[0] arena challenges.",
+	"prestart": "mod.js"
+}
